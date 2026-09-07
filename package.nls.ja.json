@@ -1,0 +1,7 @@
+{
+  "extension.description": "Dev Container 内のファイルを、ホスト側の既定アプリで開く",
+  "command.category": "ホストで開く",
+  "command.openFile.title": "既定のアプリで開く",
+  "command.revealInFileManager.title": "ファイルマネージャーで表示",
+  "config.pathMap.description": "コンテナ内パスからホストパスへの対応を明示する。キーがコンテナ側のプレフィックス、値がホスト側のプレフィックス。既定では Dev Container の authority から自動判定するので、通常は設定不要である。例: `{\"/workspace\": \"/Users/you/projects/my-repo\"}`"
+}

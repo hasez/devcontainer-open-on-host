@@ -1,0 +1,83 @@
+{
+  "name": "devcontainer-open-on-host",
+  "displayName": "Open on Host (Dev Container)",
+  "description": "%extension.description%",
+  "version": "0.3.0",
+  "publisher": "hasez",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "devcontainer",
+    "dev container",
+    "remote",
+    "open",
+    "default application"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasez/devcontainer-open-on-host.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasez/devcontainer-open-on-host/issues"
+  },
+  "l10n": "./l10n",
+  "main": "./extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "openOnHost.openFile",
+        "title": "%command.openFile.title%",
+        "category": "%command.category%"
+      },
+      {
+        "command": "openOnHost.revealInFileManager",
+        "title": "%command.revealInFileManager.title%",
+        "category": "%command.category%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "openOnHost.openFile",
+          "group": "navigation@100"
+        },
+        {
+          "command": "openOnHost.revealInFileManager",
+          "group": "navigation@101"
+        }
+      ],
+      "editor/title/context": [
+        {
+          "command": "openOnHost.openFile",
+          "group": "2_files"
+        },
+        {
+          "command": "openOnHost.revealInFileManager",
+          "group": "2_files"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Open on Host",
+      "properties": {
+        "openOnHost.pathMap": {
+          "type": "object",
+          "default": {},
+          "additionalProperties": {
+            "type": "string"
+          },
+          "markdownDescription": "%config.pathMap.description%"
+        }
+      }
+    }
+  }
+}

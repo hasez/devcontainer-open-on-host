@@ -1,0 +1,7 @@
+{
+  "extension.description": "Open files from inside a Dev Container with the host's default application",
+  "command.category": "Open on Host",
+  "command.openFile.title": "Open with Default Application",
+  "command.revealInFileManager.title": "Reveal in File Manager",
+  "config.pathMap.description": "Explicit mapping from container paths to host paths. Keys are container-side prefixes, values are host-side prefixes. The host path is normally derived from the Dev Container authority, so this is not needed in the usual case. Example: `{\"/workspace\": \"/Users/you/projects/my-repo\"}`"
+}

@@ -1,0 +1,8 @@
+{
+  "Could not determine the target file.": "対象のファイルを特定できない。",
+  "Could not determine the workspace folder.": "ワークスペースフォルダーを特定できない。",
+  "Remote type \"{0}\" is not supported. Set the path mapping in openOnHost.pathMap.": "リモート種別 \"{0}\" には対応していない。openOnHost.pathMap でパスの対応を設定すること。",
+  "Could not extract the host path from the Dev Container authority. Set the mapping in openOnHost.pathMap.": "Dev Container の authority からホスト側パスを取り出せない。openOnHost.pathMap で対応を設定すること。",
+  "{0} is outside the workspace, so its host path cannot be determined.": "{0} はワークスペースの外にあるため、ホスト側のパスを決められない。",
+  "Failed to launch {0}: {1}": "{0} の起動に失敗した: {1}"
+}
