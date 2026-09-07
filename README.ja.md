@@ -86,4 +86,4 @@ npx --yes @vscode/vsce package
 
 ## ライセンス
 
-MIT。[LICENSE](LICENSE) を参照。
+MIT。[LICENSE](LICENSE) を参照。派生元の表示は [NOTICE](NOTICE) にある。

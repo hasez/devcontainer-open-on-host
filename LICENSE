@@ -4,12 +4,6 @@ Copyright (c) 2026 Yuichi Hasegawa
 Copyright (c) 2025 Feras Abdalrahman
 Copyright (c) 2025 Sebastien Baillou
 
-The technique for recovering the host-side path from a Dev Container authority
-is derived from the following MIT-licensed projects:
-
-  https://github.com/s-h-a-d-o-w/devcontainer-open-containing-folder
-  https://github.com/sbaillou/vscode-remote-ssh-reveal-explorer
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

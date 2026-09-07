@@ -1,0 +1,13 @@
+This product includes work derived from the following MIT-licensed projects.
+Their copyright holders are listed in LICENSE.
+
+  s-h-a-d-o-w/devcontainer-open-containing-folder
+  https://github.com/s-h-a-d-o-w/devcontainer-open-containing-folder
+  Copyright (c) 2025 Feras Abdalrahman
+
+  sbaillou/vscode-remote-ssh-reveal-explorer
+  https://github.com/sbaillou/vscode-remote-ssh-reveal-explorer
+  Copyright (c) 2025 Sebastien Baillou
+
+Specifically, the technique for recovering the host-side path from a Dev
+Container workspace authority (`dev-container+<hex>`) is derived from them.

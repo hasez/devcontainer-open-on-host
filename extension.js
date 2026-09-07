@@ -6,7 +6,7 @@
 // paths before handing them to the OS is what this extension is really about.
 //
 // The authority-decoding trick comes from
-// s-h-a-d-o-w/devcontainer-open-containing-folder (MIT). See LICENSE.
+// s-h-a-d-o-w/devcontainer-open-containing-folder (MIT). See NOTICE.
 
 const path = require("node:path");
 const { spawn } = require("node:child_process");

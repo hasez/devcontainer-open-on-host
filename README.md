@@ -94,4 +94,4 @@ one adds.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE), and [NOTICE](NOTICE) for the derived work.
